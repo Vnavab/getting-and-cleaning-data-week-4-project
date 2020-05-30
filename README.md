@@ -7,7 +7,7 @@ Files:
 - "run_analysis.R" contains all the code to perform the analyses described in the 5 steps
 - "tidyData.txt" is the output of the final step
 
-##How to get to the tinyData.txt:
+## How to get to the tinyData.txt:
 
 Download data from the link below and unzip it into working directory of R Studio: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
