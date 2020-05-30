@@ -1,0 +1,36 @@
+# This is the code book for the project
+
+## Source data:
+The source data are from the Human Activity Recognition Using Smartphones Data Set. 
+A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Abstract:
+Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+
+## Variables Information:
+For each record in the dataset it is provided:
+- "subjectID" : An identifier of the subject who carried out the experiment. 
+- "activityID" : Its activity label.
+- 66 Mean value and Standard deviation measurements of the following variables: 
+  - tBodyAcc-XYZ : Triaxial estimated body acceleration (time)
+  - tGravityAcc-XYZ : Triaxial acceleration from the accelerometer (total acceleration) (time)
+  - tBodyAccJerk-XYZ : Triaxial estimated body acceleration Jerk (time)
+  - tBodyGyro-XYZ : Triaxial Angular velocity from the gyroscope (time)
+  - tBodyGyroJerk-XYZ : Triaxial Angular velocity from the gyroscope Jerk (time)
+  - tBodyAccMag : Triaxial estimated body acceleration Mag (time)
+  - tGravityAccMag : Triaxial acceleration from the accelerometer (total acceleration) mag (time)
+  - tBodyAccJerkMag : Triaxial estimated body acceleration Jerk Mag (time)
+  - tBodyGyroMag : Triaxial Angular velocity from the gyroscope Mag (time)
+  - tBodyGyroJerkMag : Triaxial Angular velocity from the gyroscope Jerk Mag (time)
+  - fBodyAcc-XYZ :  Triaxial estimated body acceleration (frequency)
+  - fBodyAccJerk-XYZ : Triaxial estimated body acceleration Jerk (frequency)
+  - fBodyGyro-XYZ : Triaxial Angular velocity from the gyroscope (frequency)
+  - fBodyAccMag : Triaxial estimated body acceleration Mag (frequency)
+  - fBodyAccJerkMag : Triaxial estimated body acceleration Jerk Mag (frequency)
+  - fBodyGyroMag :  Triaxial Angular velocity from the gyroscope Mag (frequency)
+  - fBodyGyroJerkMag :  Triaxial Angular velocity from the gyroscope Jerk Mag (frequency)
+
+## Training and Test sets:
+The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
